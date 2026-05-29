@@ -1,16 +1,16 @@
 /* =========================================
-   DOLLAR MATTERS: Global Styles
+   MATTISON CAPITAL: Global Styles
    ========================================= */
 
 :root {
-  --navy:      #0d2d6e;
-  --navy-dark: #071a45;
-  --navy-mid:  #1a3a6e;
-  --blue:      #1565c0;
-  --blue-light:#1976d2;
-  --blue-link: #1a56a0;
-  --sky:       #dce8f8;
-  --sky-light: #eef4fc;
+  --navy:      #1A5941;
+  --navy-dark: #0f3325;
+  --navy-mid:  #1e6b4f;
+  --blue:      #1A5941;
+  --blue-light:#217a54;
+  --blue-link: #1A5941;
+  --sky:       #d4e8de;
+  --sky-light: #eaf4ee;
   --white:     #ffffff;
   --off-white: #f5f7fa;
   --gray-100:  #f0f2f5;
@@ -20,8 +20,8 @@
   --gray-800:  #2d3748;
   --black:     #111827;
 
-  --font-serif: 'Libre Baskerville', Georgia, serif;
-  --font-sans:  'Inter', system-ui, sans-serif;
+  --font-serif: 'Baskerville', 'Baskerville Old Face', 'Libre Baskerville', Georgia, serif;
+  --font-sans:  'Montserrat', system-ui, sans-serif;
 
   --header-h: 68px;
   --max-w: 1200px;
@@ -109,7 +109,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   gap: 4px;
   padding: 8px 14px;
   font-size: 14.5px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--gray-800);
   background: none;
   border: none;
@@ -249,7 +249,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   justify-content: center;
   padding: 10px 22px;
   font-size: 14.5px;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: var(--radius-lg);
   text-decoration: none;
   cursor: pointer;
@@ -912,7 +912,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* Footer bottom: light bar like Mayo Clinic */
 .footer-bottom {
   padding: 20px 0;
-  background: #dce6f0;
+  background: #d4e8de;
 }
 .footer-bottom-inner {
   display: flex;
@@ -928,7 +928,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .footer-bottom p {
   font-size: 13px;
-  color: #2a3a50;
+  color: #1a3a2a;
 }
 .footer-legal-links {
   display: flex;
@@ -937,11 +937,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .footer-legal-links a {
   font-size: 13px;
-  color: #1a3a5c;
+  color: #0f3325;
   text-decoration: none;
   padding-right: 16px;
   margin-right: 16px;
-  border-right: 1px solid rgba(26,58,92,0.3);
+  border-right: 1px solid rgba(15,51,37,0.3);
   line-height: 1.8;
   transition: color var(--transition);
 }
@@ -962,7 +962,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .footer-lang-label {
   font-size: 13px;
-  color: #2a3a50;
+  color: #1a3a2a;
   font-weight: 500;
 }
 .footer-lang-btn {
@@ -970,7 +970,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   align-items: center;
   gap: 4px;
   font-size: 13px;
-  color: #1a3a5c;
+  color: #0f3325;
   font-weight: 500;
   background: none;
   border: none;
@@ -987,7 +987,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   bottom: calc(100% + 6px);
   right: 0;
   background: #fff;
-  border: 1px solid rgba(26,58,92,0.2);
+  border: 1px solid rgba(15,51,37,0.2);
   border-radius: 6px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
   overflow: hidden;
@@ -1004,7 +1004,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   background: none;
   border: none;
   font-size: 13px;
-  color: #1a3a5c;
+  color: #0f3325;
   cursor: pointer;
   font-family: var(--font-sans);
   transition: background var(--transition);
